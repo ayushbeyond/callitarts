@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Call It Arts — Talent. Crew. Production. On Demand.</title>
+<meta name="description" content="Call It Arts — India's verified network of bouncers, chefs, film & production crew and event staff, ready to deploy across India.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="Call It Arts — The Right People. For Every Production.">
+<meta property="og:description" content="Verified bouncers, chefs, production crews and event manpower across India.">
+<meta property="og:image" content="assets/hero-production.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0a0a'/%3E%3Ctext x='5' y='23' font-family='Arial' font-weight='800' font-size='17' fill='%23fff'%3EA%3C/text%3E%3Ccircle cx='24' cy='21' r='3' fill='%23ec1c24'/%3E%3C/svg%3E">
+<link rel="preload" as="image" href="assets/hero-production.webp" fetchpriority="high">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+<style>
+:root{
+  --bg:#0a0a0a; --bg-2:#111010; --panel:rgba(255,255,255,.035);
+  --line:rgba(255,255,255,.14); --line-2:rgba(255,255,255,.26);
+  --text:#f6f4f1; --soft:#d9d5d0; --muted:#9c9893;
+  --red:#ec1c24; --red-2:#ff3a40;
+  --f-head:"Plus Jakarta Sans","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --gutter:clamp(20px,5vw,80px);
+  --header:96px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
+.lenis.lenis-stopped{overflow:hidden}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 var(--f-body);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+p{margin:0}
+h1,h2,h3{margin:0;font-family:var(--f-head);font-weight:800;letter-spacing:-.035em;line-height:1.04;text-wrap:balance}
+button{font:inherit;color:inherit}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px;border-radius:4px}
+.wrap{width:100%;max-width:1440px;margin:0 auto;padding-left:max(var(--gutter),env(safe-area-inset-left));padding-right:max(var(--gutter),env(safe-area-inset-right))}
+.dot{color:var(--red)}
+.eyebrow{font:600 12px/1.4 var(--f-body);letter-spacing:.28em;text-transform:uppercase;color:var(--soft)}
+.ico{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:0 34px;border-radius:12px;border:1.5px solid var(--text);font:600 17px/1 var(--f-head);letter-spacing:-.01em;color:var(--text);background:rgba(0,0,0,.2);cursor:pointer;white-space:nowrap;transition:background .25s,color .25s,border-color .25s,transform .25s var(--ease),box-shadow .25s}
+.btn svg{width:15px;height:15px;stroke-width:2.2;transition:transform .3s var(--ease)}
+.btn:hover{background:var(--text);color:#0a0a0a}
+.btn:hover svg{transform:translate(2px,-2px)}
+.btn.red{background:linear-gradient(180deg,var(--red-2),var(--red));border-color:transparent;color:#fff;box-shadow:0 10px 30px -10px rgba(236,28,36,.65)}
+.btn.red:hover{background:#fff;color:#0a0a0a;box-shadow:0 10px 30px -12px rgba(255,255,255,.4)}
+.btn.sm{min-height:46px;padding:0 24px;font-size:15px;border-radius:999px}
+.btn:disabled{opacity:.5;cursor:wait}
+
+/* ---------- Header ---------- */
+.site-header{position:fixed;inset:0 0 auto;z-index:50;padding-top:env(safe-area-inset-top);transition:background .35s,backdrop-filter .35s,border-color .35s;border-bottom:1px solid transparent}
+.site-header::before{content:"";position:absolute;inset:0 0 -40px;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.6),transparent);pointer-events:none;transition:opacity .35s}
+.site-header.solid{background:rgba(10,10,10,.78);-webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);border-bottom-color:rgba(255,255,255,.07)}
+.site-header.solid::before{opacity:0}
+.bar{display:flex;align-items:center;gap:28px;height:var(--header);transition:height .35s var(--ease)}
+.site-header.solid .bar{height:76px}
+.logo{display:flex;align-items:center;gap:30px;flex:none}
+.logo-word{display:grid;font:800 31px/.86 var(--f-head);letter-spacing:-.045em;text-transform:uppercase}
+.logo-word span:first-child{font-size:.78em;letter-spacing:-.02em}
+.logo-word i{display:inline-block;width:.24em;height:.24em;margin-left:.06em;border-radius:50%;background:var(--red)}
+.logo-tag{padding-left:30px;border-left:1px solid rgba(255,255,255,.5);font:500 11px/1.75 var(--f-body);letter-spacing:.26em;color:#e9e6e2;text-transform:uppercase}
+.nav{margin-left:auto;display:flex;align-items:center;gap:clamp(22px,2.8vw,48px)}
+.nav-link{display:inline-flex;align-items:center;gap:7px;padding:8px 0;background:none;border:0;font:500 15px/1 var(--f-head);color:#f2efeb;cursor:pointer;position:relative}
+.nav-link::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1.5px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+.nav-link:hover::after,.nav-link[aria-current]::after{transform:scaleX(1)}
+.nav-link .chev{width:10px;height:10px;fill:currentColor;transition:transform .25s}
+.drop{position:relative}
+.drop-panel{position:absolute;top:calc(100% + 14px);left:-18px;min-width:260px;padding:8px;border:1px solid var(--line);border-radius:16px;background:rgba(16,15,15,.96);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);box-shadow:0 24px 60px -20px rgba(0,0,0,.8);opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .2s,transform .25s var(--ease),visibility .2s}
+.drop-panel::before{content:"";position:absolute;inset:-16px 0 auto;height:16px}
+.drop:hover .drop-panel,.drop:focus-within .drop-panel,.drop.open .drop-panel{opacity:1;visibility:visible;transform:none}
+.drop:hover .chev,.drop.open .chev{transform:rotate(180deg)}
+.drop-panel a{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:10px;font:500 14px/1.2 var(--f-head);color:var(--soft);transition:background .2s,color .2s}
+.drop-panel a:hover{background:rgba(255,255,255,.06);color:#fff}
+.drop-panel a span{width:20px;height:20px;color:var(--red);flex:none}
+.burger{display:none;width:44px;height:44px;margin-left:auto;margin-right:-10px;border:0;background:none;cursor:pointer;position:relative}
+.burger span{position:absolute;left:10px;right:10px;height:1.6px;background:#fff;border-radius:2px;transition:transform .35s var(--ease),opacity .2s}
+.burger span:nth-child(1){top:15px}.burger span:nth-child(2){top:21px}.burger span:nth-child(3){top:27px}
+.menu-open .burger span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menu-open .burger span:nth-child(2){opacity:0}
+.menu-open .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;isolation:isolate;overflow:hidden;padding-bottom:clamp(64px,7vw,104px)}
+.hero-media{position:absolute;inset:0 0 auto;height:min(92%,880px);z-index:-2;overflow:hidden}
+.hero-media img{position:absolute;left:0;top:-6%;width:100%;height:112%;object-fit:cover;object-position:68% 30%;filter:brightness(1.08) saturate(.95) contrast(1.04);will-change:transform}
+.hero-media::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(90deg,rgba(10,10,10,.95) 0%,rgba(10,10,10,.82) 30%,rgba(10,10,10,.35) 56%,rgba(10,10,10,.05) 80%),
+  linear-gradient(0deg,var(--bg) 0%,rgba(10,10,10,.75) 22%,transparent 50%,rgba(0,0,0,.15) 100%)}
+.hero-glow{position:absolute;left:-10%;bottom:6%;width:60%;height:40%;z-index:-1;background:radial-gradient(closest-side,rgba(236,28,36,.18),transparent);pointer-events:none}
+.hero-copy{padding-top:calc(var(--header) + clamp(40px,5.2vw,78px));padding-bottom:clamp(44px,5vw,70px);display:grid;justify-items:start;gap:20px}
+.hero-copy h1{font-size:clamp(40px,4.3vw,70px);max-width:none;margin-top:4px}
+.hero-copy p{max-width:44ch;font-size:clamp(16px,1.3vw,20px);line-height:1.55;color:var(--soft)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:18px;margin-top:14px}
+
+/* ---------- Service cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.1vw,18px)}
+.card{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;aspect-ratio:1.18;min-width:0;padding:24px 22px 22px 26px;border:1px solid var(--line);border-radius:20px;background:#151313;box-shadow:0 20px 50px -24px rgba(0,0,0,.9);transition:border-color .35s,transform .5s var(--ease)}
+.card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:brightness(.82) saturate(.9);transition:transform 1s var(--ease),filter .5s}
+.card::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,0) 28%,rgba(0,0,0,.45) 56%,rgba(0,0,0,.9) 100%)}
+.card:hover{border-color:var(--line-2);transform:translateY(-4px)}
+.card:hover img{transform:scale(1.06);filter:brightness(.95) saturate(1)}
+.card-ico{width:32px;height:32px;color:#fff;margin-bottom:12px}
+.card h3{font-size:clamp(19px,1.55vw,24px);letter-spacing:-.025em;padding-right:44px}
+.card p{margin-top:8px;font-size:clamp(13px,.98vw,15px);line-height:1.45;color:#e6e2dd;max-width:30ch;padding-right:46px}
+.card-go{position:absolute;right:20px;bottom:22px;width:36px;height:36px;border-radius:50%;border:1.5px solid rgba(255,255,255,.85);display:grid;place-items:center;transition:background .3s,border-color .3s,transform .4s var(--ease)}
+.card-go svg{width:16px;height:16px;stroke-width:2}
+.card:hover .card-go{background:var(--red);border-color:var(--red);transform:rotate(-45deg)}
+
+/* ---------- How it works ---------- */
+.how{padding:clamp(24px,3vw,40px) 0 clamp(80px,9vw,128px)}
+.how-wrap{display:grid;grid-template-columns:minmax(260px,.78fr) minmax(0,2.6fr);gap:clamp(28px,3vw,48px);align-items:center}
+.how h2{font-size:clamp(34px,3vw,48px);white-space:nowrap}
+.how-intro p{margin-top:12px;font-size:clamp(16px,1.25vw,19px);line-height:1.5;color:var(--soft);max-width:28ch}
+.steps{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:center;gap:8px;min-height:120px;padding:20px 28px;border:1px solid var(--line-2);border-radius:18px;background:var(--panel);list-style:none;margin:0}
+.step{display:grid;justify-items:center;text-align:center;gap:12px;font:500 clamp(14px,1.08vw,16px)/1.35 var(--f-body);color:#f2efeb}
+.step-ico{width:36px;height:36px;color:#fff}
+.step b{font-weight:500}
+.steps>li[aria-hidden]{width:12px;height:12px;color:#d6d2cd}
+.steps>li[aria-hidden] svg{width:12px;height:18px}
+
+/* ---------- Brand kit ---------- */
+.kit{padding:0 0 clamp(80px,9vw,128px)}
+.kit-wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.25fr);gap:clamp(32px,6vw,96px);align-items:center}
+.kit h2{font-size:clamp(34px,4vw,60px);margin:16px 0 18px}
+.kit p{max-width:40ch;color:var(--soft);font-size:clamp(15px,1.15vw,18px);line-height:1.65}
+.kit-list{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 0;padding:0;list-style:none}
+.kit-list li{padding:9px 16px;border:1px solid var(--line);border-radius:999px;font:500 13px/1 var(--f-head);color:var(--soft)}
+.kit-img{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:24px;aspect-ratio:4/3;background:#151313}
+.kit-img img{width:100%;height:115%;object-fit:cover;will-change:transform}
+
+/* ---------- CTA band ---------- */
+.cta{padding:0 0 clamp(80px,9vw,120px)}
+.cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,1.2vw,18px)}
+.cta-card{position:relative;overflow:hidden;display:grid;gap:14px;align-content:start;padding:clamp(30px,4vw,56px);border:1px solid var(--line);border-radius:22px;background:var(--panel);transition:border-color .3s,background .3s}
+.cta-card::after{content:"";position:absolute;right:-20%;top:-60%;width:70%;height:160%;background:radial-gradient(closest-side,rgba(236,28,36,.22),transparent);opacity:0;transition:opacity .5s}
+.cta-card:hover{border-color:var(--line-2);background:rgba(255,255,255,.05)}
+.cta-card:hover::after{opacity:1}
+.cta-card h3{font-size:clamp(28px,3vw,44px)}
+.cta-card p{max-width:36ch;color:var(--soft)}
+.cta-card .go{display:inline-flex;align-items:center;gap:10px;margin-top:10px;font:600 15px/1 var(--f-head);color:#fff}
+.cta-card .go span{width:36px;height:36px;border-radius:50%;background:var(--red);display:grid;place-items:center;transition:transform .4s var(--ease)}
+.cta-card .go svg{width:15px;height:15px;stroke-width:2.2}
+.cta-card:hover .go span{transform:rotate(-45deg)}
+
+/* ---------- Footer ---------- */
+.site-footer{border-top:1px solid rgba(255,255,255,.08);padding:40px 0 calc(32px + env(safe-area-inset-bottom));color:var(--muted);font-size:14px}
+.foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 40px}
+.site-footer .logo{gap:20px}
+.site-footer .logo-word{font-size:24px}
+.site-footer .logo-tag{padding-left:20px;font-size:9px}
+.foot-links{display:flex;flex-wrap:wrap;gap:12px 28px;font:500 14px/1 var(--f-head);color:var(--soft)}
+.foot-links a:hover{color:#fff}
+.foot-base{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;margin-top:28px;padding-top:22px;border-top:1px solid rgba(255,255,255,.06);font-size:13px}
+.credit a{color:var(--soft);border-bottom:1px solid rgba(255,255,255,.25);transition:color .2s,border-color .2s}
+.credit a:hover{color:#fff;border-color:var(--red)}
+
+/* ---------- Forms ---------- */
+body:not([data-view="home"]) .site-header{background:rgba(10,10,10,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom-color:rgba(255,255,255,.07)}
+.formpage{max-width:980px;padding-top:calc(var(--header) + clamp(40px,6vw,80px));padding-bottom:clamp(64px,8vw,104px)}
+.formhead{display:grid;gap:14px;margin-bottom:36px;max-width:680px}
+.formhead h1{font-size:clamp(40px,5.5vw,68px)}
+.formhead p{color:var(--soft);font-size:clamp(15px,1.2vw,18px);max-width:52ch}
+.ref{font:500 12px/1 var(--f-body);letter-spacing:.14em;color:var(--muted)}
+form.sheet{max-width:840px}
+fieldset{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 22px;margin:0 0 16px;padding:30px;border:1px solid var(--line);border-radius:20px;background:var(--panel);min-width:0}
+legend{float:left;width:100%;grid-column:1/-1;display:flex;align-items:center;gap:12px;padding:0;margin-bottom:4px;font:700 18px/1.2 var(--f-head);letter-spacing:-.01em}
+legend small{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;background:rgba(236,28,36,.14);color:var(--red-2);font:700 12px/1 var(--f-head)}
+.f{display:grid;gap:9px;min-width:0;align-content:start}
+.f.full{grid-column:1/-1}
+label.l{font:500 13px/1.3 var(--f-body);color:var(--soft)}
+.req{color:var(--red-2)}
+input[type=text],input[type=tel],input[type=email],input[type=number],input[type=date],input[type=time],select,textarea{width:100%;min-width:0;min-height:50px;padding:12px 14px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:#121111;color:var(--text);font:16px/1.3 var(--f-body);transition:border-color .2s,box-shadow .2s,background .2s}
+select{appearance:none;-webkit-appearance:none;padding-right:40px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23aaa' stroke-width='1.6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 15px center;background-size:12px}
+select option{background:#151313;color:var(--text)}
+textarea{min-height:110px;resize:vertical;line-height:1.55}
+input::placeholder,textarea::placeholder{color:#6b6762}
+input:hover,select:hover,textarea:hover{border-color:rgba(255,255,255,.24)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:rgba(255,255,255,.55);box-shadow:0 0 0 4px rgba(255,255,255,.06);background:#161515}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{position:relative}
+.opt input{position:absolute;inset:0;margin:0;opacity:0;cursor:pointer}
+.opt span{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:#121111;font:500 14px/1 var(--f-body);color:var(--soft);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.opt:hover span{border-color:rgba(255,255,255,.34)}
+.opt input:checked+span{background:#fff;border-color:#fff;color:#0a0a0a}
+.opt input:focus-visible+span{outline:2px solid var(--red);outline-offset:3px}
+.cond{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding:22px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(0,0,0,.25)}
+.hint{font-size:14px;line-height:1.65;color:var(--muted)}
+.check{grid-column:1/-1;display:flex;align-items:flex-start;gap:12px;font-size:14px;line-height:1.55;color:var(--soft);cursor:pointer}
+.check input{flex:none;width:18px;height:18px;margin-top:2px;accent-color:var(--red)}
+.notice{max-width:680px;margin-bottom:24px;padding:14px 18px;border:1px solid rgba(236,28,36,.3);border-radius:14px;background:rgba(236,28,36,.07);font-size:14px;color:var(--soft)}
+.submit{display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding-top:12px}
+.status{font-size:14px;color:var(--muted)}
+.status.ok{color:#7fd19b}.status.err{color:#ff7a73}
+
+/* ---------- Reveal ---------- */
+.js [data-reveal]{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)}
+.js [data-reveal].in{opacity:1;transform:none}
+
+.card-dots{display:none;justify-content:center;gap:6px;margin-top:16px}
+.card-dots i{width:6px;height:6px;border-radius:99px;background:rgba(255,255,255,.28);transition:width .3s var(--ease),background .3s}
+.card-dots i.on{width:20px;background:var(--red)}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1240px){
+  .logo-tag{display:none}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .card{aspect-ratio:1.55}
+  .how-wrap{grid-template-columns:1fr;gap:24px}
+  .how-intro{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 32px}
+}
+@media (max-width:980px){
+  :root{--header:80px}
+  .burger{display:block}
+  .nav{position:fixed;inset:0;z-index:-1;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;margin:0;padding:calc(var(--header) + env(safe-area-inset-top) + 16px) max(var(--gutter),env(safe-area-inset-right)) calc(32px + env(safe-area-inset-bottom)) max(var(--gutter),env(safe-area-inset-left));background:rgba(10,10,10,.97);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);overflow-y:auto;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
+  .menu-open .nav{opacity:1;visibility:visible}
+  .menu-open .site-header::before{opacity:0}
+  .nav>.nav-link,.drop>.nav-link{width:100%;justify-content:space-between;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:24px;font-weight:700;letter-spacing:-.02em}
+  .nav-link::after{display:none}
+  .drop .chev{display:none}
+  .drop-panel{position:static;opacity:1;visibility:visible;transform:none;min-width:0;padding:6px 0 14px;border:0;border-bottom:1px solid rgba(255,255,255,.08);border-radius:0;background:none;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .drop-panel::before{display:none}
+  .drop-panel a{padding:12px 0;font-size:16px}
+  .nav .btn{margin-top:28px;min-height:56px;font-size:17px}
+  .site-header.solid .bar{height:68px}
+}
+@media (max-width:760px){
+  .hero-copy h1{font-size:clamp(38px,10.5vw,56px)}
+  .hero-media{height:min(88%,820px)}
+  .hero-media img{object-position:66% 30%}
+  .hero-media::after{background:linear-gradient(90deg,rgba(10,10,10,.9) 0%,rgba(10,10,10,.55) 70%,rgba(10,10,10,.3) 100%),linear-gradient(0deg,var(--bg) 0%,rgba(10,10,10,.6) 30%,transparent 60%,rgba(0,0,0,.4) 100%)}
+  .hero-copy{gap:16px}
+  .eyebrow{font-size:11px;letter-spacing:.22em}
+  .kit-wrap{grid-template-columns:1fr}
+  .kit-img{order:-1}
+  .cta-grid{grid-template-columns:1fr}
+  fieldset,.cond{grid-template-columns:1fr}
+  fieldset{padding:22px 18px}
+}
+@media (max-width:640px){
+  .logo-word{font-size:26px}
+  .cards{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:max(var(--gutter),env(safe-area-inset-left));overscroll-behavior-x:contain;scrollbar-width:none;padding-bottom:4px}
+  .cards::-webkit-scrollbar{display:none}
+  .card{flex:0 0 84%;aspect-ratio:.92;scroll-snap-align:start;padding:20px 18px 20px 20px}
+  .card:hover{transform:none}
+  .card-dots{display:flex}
+  .steps{grid-template-columns:1fr;gap:0;padding:6px 20px}
+  .steps>li[aria-hidden]{display:none}
+  .step{grid-template-columns:40px 1fr;justify-items:start;text-align:left;align-items:center;gap:16px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+  .step:last-child{border-bottom:0}
+  .step-ico{width:30px;height:30px}
+  .foot,.foot-base{flex-direction:column;align-items:flex-start}
+}
+@media (max-width:480px){
+  .hero-cta{display:grid;grid-template-columns:1fr;width:100%;gap:12px}
+  .hero-cta .btn{width:100%}
+  .submit .btn{width:100%}
+}
+@media (hover:none){.card:hover img{transform:none}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+  .js [data-reveal]{opacity:1;transform:none}
+}
+</style>
+</head>
+<body data-view="home">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow-ne" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 20 6v5.5c0 4.7-3.3 8.1-8 9.5-4.7-1.4-8-4.8-8-9.5V6l8-3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></symbol>
+  <symbol id="i-chef" viewBox="0 0 24 24"><path d="M7 14v6h10v-6"/><path d="M7 14a4 4 0 0 1-.6-7.95A5 5 0 0 1 12 3a5 5 0 0 1 5.6 3.05A4 4 0 0 1 17 14"/><path d="M7 17h10"/></symbol>
+  <symbol id="i-clap" viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="12" rx="1.5"/><path d="m3 9 1.4-5 16 3.6L21 9"/><path d="m8 4.8 1.6 4.2M13 5.9l1.6 3.1"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12.5 9 5 9-5M3 16.5l9 5 9-5"/></symbol>
+  <symbol id="i-clip" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.5h6V4M8.5 10h7M8.5 14h7M8.5 18h4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20v-1a6 6 0 0 1 12 0v1M16 4.9a3.2 3.2 0 0 1 0 6.2M18 14.5a5 5 0 0 1 3 4.5v1"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7.5 2.5v5M16.5 2.5v5M3 10h18"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.2 2.8 2.8L16 9.5"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 10 6"><path d="M0 0h10L5 6z"/></symbol>
+  <symbol id="i-gt" viewBox="0 0 8 14"><path d="m1 1 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="Call It Arts — home">
+      <span class="logo-word"><span>Call it</span><span>Arts<i></i></span></span>
+      <span class="logo-tag">Talent. Crew. Production.<br>On demand.</span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Main">
+      <div class="drop">
+        <button class="nav-link" type="button" aria-expanded="false" aria-controls="svcMenu">Services <svg class="chev" aria-hidden="true"><use href="#i-chev"/></svg></button>
+        <div class="drop-panel" id="svcMenu">
+          <a href="#svc-security"><span><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span>Security &amp; Bouncers</a>
+          <a href="#svc-culinary"><span><svg class="ico" aria-hidden="true"><use href="#i-chef"/></svg></span>Culinary Talent</a>
+          <a href="#svc-film"><span><svg class="ico" aria-hidden="true"><use href="#i-clap"/></svg></span>Film &amp; Production Crew</a>
+          <a href="#svc-events"><span><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg></span>Events &amp; Hospitality</a>
+        </div>
+      </div>
+      <a class="nav-link" href="#process">How It Works</a>
+      <a class="nav-link" href="#join" data-v="join">Join the Network</a>
+      <a class="btn red sm" href="#request" data-v="request">Request Talent <svg aria-hidden="true"><use href="#i-arrow-ne"/></svg></a>
+    </nav>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<div data-view="home">
+  <section class="hero" id="home">
+    <div class="hero-media"><img src="assets/hero-production.webp" width="1536" height="864" fetchpriority="high" decoding="async" alt="Call It Arts camera operator in a branded crew jacket on a smoky, warmly lit film set"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-copy">
+      <span class="eyebrow" data-reveal>India's verified crew &amp; talent network</span>
+      <h1 data-reveal style="--d:.08s">The Right People.<br>For Every Production<span class="dot">.</span></h1>
+      <p data-reveal style="--d:.16s">A professional network for bouncers, chefs, production crews and event manpower — verified, trained and ready to deploy across India.</p>
+      <div class="hero-cta" data-reveal style="--d:.24s">
+        <a class="btn red" href="#request" data-v="request">Request Talent <svg aria-hidden="true"><use href="#i-arrow-ne"/></svg></a>
+        <a class="btn" href="#join" data-v="join">Join the Network</a>
+      </div>
+    </div>
+
+    <div class="wrap cards" id="services" aria-label="Services">
+      <a class="card" id="svc-security" href="#request" data-v="request" data-reveal style="--d:.1s">
+        <img src="assets/security-bouncers.webp" width="1200" height="900" loading="lazy" decoding="async" alt="Suited security professional with an earpiece at an event">
+        <span class="card-ico"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span>
+        <h3>Security &amp; Bouncers</h3>
+        <p>Event security, bouncers, personal security and MMA-trained personnel.</p>
+        <span class="card-go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-r"/></svg></span>
+      </a>
+      <a class="card" id="svc-culinary" href="#request" data-v="request" data-reveal style="--d:.18s">
+        <img src="assets/culinary-talent.webp" width="1200" height="900" loading="lazy" decoding="async" alt="Chef plating a dish in a professional kitchen">
+        <span class="card-ico"><svg class="ico" aria-hidden="true"><use href="#i-chef"/></svg></span>
+        <h3>Culinary Talent</h3>
+        <p>Chefs, sous chefs, kitchen assistants and specialised culinary professionals.</p>
+        <span class="card-go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-r"/></svg></span>
+      </a>
+      <a class="card" id="svc-film" href="#request" data-v="request" data-reveal style="--d:.26s">
+        <img src="assets/film-production-crew.webp" width="1200" height="900" loading="lazy" decoding="async" alt="Cinema camera rig on a production set">
+        <span class="card-ico"><svg class="ico" aria-hidden="true"><use href="#i-clap"/></svg></span>
+        <h3>Film &amp; Production Crew</h3>
+        <p>Camera, lighting, art, sound, production assistants and technical crew.</p>
+        <span class="card-go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-r"/></svg></span>
+      </a>
+      <a class="card" id="svc-events" href="#request" data-v="request" data-reveal style="--d:.34s">
+        <img src="assets/events-hospitality.webp" width="1200" height="900" loading="lazy" decoding="async" alt="Hospitality professional in uniform at an evening event">
+        <span class="card-ico"><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg></span>
+        <h3>Events &amp; Hospitality</h3>
+        <p>Event staff, ushers, service teams and temporary manpower.</p>
+        <span class="card-go" aria-hidden="true"><svg class="ico"><use href="#i-arrow-r"/></svg></span>
+      </a>
+    </div>
+    <div class="card-dots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="how" id="process" aria-labelledby="how-title">
+    <div class="wrap how-wrap">
+      <div class="how-intro" data-reveal>
+        <h2 id="how-title">How It Works<span class="dot">.</span></h2>
+        <p>From requirement to deployment — fast, reliable and seamless.</p>
+      </div>
+      <ol class="steps" data-reveal style="--d:.12s">
+        <li class="step"><span class="step-ico"><svg class="ico" aria-hidden="true"><use href="#i-clip"/></svg></span><b>1. Tell us your requirement</b></li>
+        <li aria-hidden="true"><svg><use href="#i-gt"/></svg></li>
+        <li class="step"><span class="step-ico"><svg class="ico" aria-hidden="true"><use href="#i-users"/></svg></span><b>2. We match the right talent</b></li>
+        <li aria-hidden="true"><svg><use href="#i-gt"/></svg></li>
+        <li class="step"><span class="step-ico"><svg class="ico" aria-hidden="true"><use href="#i-cal"/></svg></span><b>3. Confirm &amp; deploy</b></li>
+        <li aria-hidden="true"><svg><use href="#i-gt"/></svg></li>
+        <li class="step"><span class="step-ico"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg></span><b>4. On-ground support</b></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="kit" aria-labelledby="kit-title">
+    <div class="wrap kit-wrap">
+      <div data-reveal>
+        <span class="eyebrow">The identity behind every call</span>
+        <h2 id="kit-title">One crew.<br>One identity<span class="dot">.</span></h2>
+        <p>From crew jackets and caps to production cases and on-set essentials — every detail carries the CALL IT ARTS standard.</p>
+        <ul class="kit-list"><li>Crew jackets &amp; caps</li><li>Director chairs</li><li>Production cases</li><li>Crew passes</li></ul>
+      </div>
+      <figure class="kit-img" data-reveal style="--d:.12s"><img src="assets/call-it-arts-brand-assets.webp" width="1200" height="900" loading="lazy" decoding="async" data-parallax alt="CALL IT ARTS branded director chair, crew jacket, cap, radio, production case and crew pass"></figure>
+    </div>
+  </section>
+
+  <section class="cta" aria-label="Get started">
+    <div class="wrap cta-grid">
+      <a class="cta-card" href="#request" data-v="request" data-reveal>
+        <span class="eyebrow">For producers &amp; venues</span>
+        <h3>Request talent<span class="dot">.</span></h3>
+        <p>Share your requirement. We match the right people to your production.</p>
+        <span class="go"><span><svg class="ico" aria-hidden="true"><use href="#i-arrow-r"/></svg></span>Request talent</span>
+      </a>
+      <a class="cta-card" href="#join" data-v="join" data-reveal style="--d:.1s">
+        <span class="eyebrow">For crew &amp; professionals</span>
+        <h3>Join the network<span class="dot">.</span></h3>
+        <p>Register your skills and availability to hear about upcoming work.</p>
+        <span class="go"><span><svg class="ico" aria-hidden="true"><use href="#i-arrow-r"/></svg></span>Join the network</span>
+      </a>
+    </div>
+  </section>
+</div>
+
+<div data-view="join" hidden><div class="wrap formpage">
+  <div class="formhead"><span class="eyebrow">Crew registration</span><h1>Join the call list<span class="slash">.</span></h1><p>About four minutes. We call you when a shoot or event in your city needs your skills.</p><span class="ref" id="joinRef"></span></div>
+  <div class="notice" id="joinNote" hidden></div>
+  <form class="sheet" id="joinForm" novalidate>
+    <fieldset><legend><small>A</small>Personal</legend>
+      <div class="f"><label class="l" for="j_name">Full name <span class="req">*</span></label><input type="text" id="j_name" name="name" required autocomplete="name"></div>
+      <div class="f"><label class="l" for="j_phone">Mobile / WhatsApp <span class="req">*</span></label><input type="tel" id="j_phone" name="phone" required inputmode="tel" placeholder="+91 98xxx xxxxx"></div>
+      <div class="f"><label class="l" for="j_city">Current city <span class="req">*</span></label><input type="text" id="j_city" name="city" required placeholder="Mumbai"></div>
+      <div class="f"><label class="l" for="j_age">Age <span class="req">*</span></label><input type="number" id="j_age" name="age" min="18" max="70" required></div>
+      <div class="f full"><label class="l">Ready to travel</label><div class="opts">
+        <label class="opt"><input type="radio" name="travel" value="Own city only" id="j_tr1" checked><span>Own city only</span></label>
+        <label class="opt"><input type="radio" name="travel" value="Nearby cities" id="j_tr2"><span>Nearby cities</span></label>
+        <label class="opt"><input type="radio" name="travel" value="Pan India" id="j_tr3"><span>Pan India</span></label></div></div>
+      <div class="f full"><label class="l" for="j_lang">Languages</label><input type="text" id="j_lang" name="languages" placeholder="Hindi, English, Marathi"></div>
+    </fieldset>
+
+    <fieldset><legend><small>B</small>Role</legend>
+      <div class="f full"><label class="l">I work as <span class="req">*</span></label><div class="opts" id="roleOpts">
+        <label class="opt"><input type="radio" name="role" value="Bouncer / Security" id="j_r1" checked><span>Bouncer / Security</span></label>
+        <label class="opt"><input type="radio" name="role" value="Chef / Cook" id="j_r2"><span>Chef / Cook</span></label>
+        <label class="opt"><input type="radio" name="role" value="Set crew" id="j_r3"><span>Set crew</span></label>
+        <label class="opt"><input type="radio" name="role" value="Event staff" id="j_r4"><span>Event staff</span></label></div></div>
+      <div class="f"><label class="l" for="j_exp">Experience</label><select id="j_exp" name="experience"><option>Fresher</option><option>Under 1 year</option><option selected>1–3 years</option><option>3–5 years</option><option>5–10 years</option><option>10+ years</option></select></div>
+      <div class="f"><label class="l" for="j_prev">Previous shoots / venues</label><input type="text" id="j_prev" name="previous" placeholder="Web series, clubs, hotels…"></div>
+
+      <div class="cond" data-for="Bouncer / Security">
+        <div class="f"><label class="l" for="j_h">Height (cm)</label><input type="number" id="j_h" name="height" min="140" max="220"></div>
+        <div class="f"><label class="l" for="j_w">Weight (kg)</label><input type="number" id="j_w" name="weight" min="40" max="200"></div>
+        <div class="f full"><label class="l">Combat training</label><div class="opts">
+          <label class="opt"><input type="checkbox" name="training" value="MMA" id="j_t1"><span>MMA</span></label>
+          <label class="opt"><input type="checkbox" name="training" value="Boxing" id="j_t2"><span>Boxing</span></label>
+          <label class="opt"><input type="checkbox" name="training" value="Kickboxing" id="j_t3"><span>Kickboxing</span></label>
+          <label class="opt"><input type="checkbox" name="training" value="Wrestling" id="j_t4"><span>Wrestling</span></label>
+          <label class="opt"><input type="checkbox" name="training" value="Security licence (PSARA)" id="j_t5"><span>PSARA trained</span></label></div></div>
+        <div class="f full"><label class="l">Celebrity / VIP duty done before?</label><div class="opts">
+          <label class="opt"><input type="radio" name="vip" value="Yes" id="j_v1"><span>Yes</span></label>
+          <label class="opt"><input type="radio" name="vip" value="No" id="j_v2" checked><span>No</span></label></div></div>
+      </div>
+      <div class="cond" data-for="Chef / Cook" hidden>
+        <div class="f"><label class="l" for="j_cui">Cuisines</label><input type="text" id="j_cui" name="cuisines" placeholder="North Indian, Continental, Chinese"></div>
+        <div class="f"><label class="l" for="j_des">Current designation</label><input type="text" id="j_des" name="designation" placeholder="CDP, Sous chef, Cook"></div>
+        <div class="f full"><label class="l">Can handle</label><div class="opts">
+          <label class="opt"><input type="checkbox" name="kitchen" value="Unit catering (50+ people)" id="j_k1"><span>Unit catering 50+</span></label>
+          <label class="opt"><input type="checkbox" name="kitchen" value="Private chef" id="j_k2"><span>Private chef</span></label>
+          <label class="opt"><input type="checkbox" name="kitchen" value="Live counter" id="j_k3"><span>Live counter</span></label>
+          <label class="opt"><input type="checkbox" name="kitchen" value="Bakery / pastry" id="j_k4"><span>Bakery / pastry</span></label></div></div>
+      </div>
+      <div class="cond" data-for="Set crew" hidden>
+        <div class="f"><label class="l" for="j_dept">Department</label><select id="j_dept" name="department"><option>Production / PA</option><option>Spot boy</option><option>Lighting</option><option>Camera assistant</option><option>Art department</option><option>Sound</option><option>Costume / makeup</option></select></div>
+        <div class="f"><label class="l" for="j_card">Union card (if any)</label><input type="text" id="j_card" name="union" placeholder="FWICE / none"></div>
+      </div>
+      <div class="cond" data-for="Event staff" hidden>
+        <div class="f full"><label class="l" for="j_evt">Event roles</label><input type="text" id="j_evt" name="eventRoles" placeholder="Usher, host, F&amp;B service, registration desk"></div>
+      </div>
+    </fieldset>
+
+    <fieldset><legend><small>C</small>Availability &amp; pay</legend>
+      <div class="f full"><label class="l">Available for</label><div class="opts">
+        <label class="opt"><input type="checkbox" name="avail" value="Day shifts" id="j_a1" checked><span>Day shifts</span></label>
+        <label class="opt"><input type="checkbox" name="avail" value="Late-night shoots" id="j_a2"><span>Late-night shoots</span></label>
+        <label class="opt"><input type="checkbox" name="avail" value="Weekends" id="j_a3"><span>Weekends</span></label>
+        <label class="opt"><input type="checkbox" name="avail" value="Full schedule (weeks)" id="j_a4"><span>Full schedule</span></label></div></div>
+      <div class="f"><label class="l" for="j_rate">Expected per shift (₹)</label><input type="number" id="j_rate" name="rate" min="0" step="50" placeholder="800"></div>
+      <div class="f"><label class="l" for="j_hr">Expected per hour (₹)</label><input type="number" id="j_hr" name="hourly" min="0" step="10" placeholder="100"></div>
+    </fieldset>
+
+    <fieldset><legend><small>D</small>Verification</legend>
+      <div class="f full"><p class="hint">We verify identity through an authorised Aadhaar-based check before your first call. Do not type your Aadhaar number here; we collect it securely at verification.</p></div>
+      <div class="f"><label class="l" for="j_ref1">Reference 1 (name + phone)</label><input type="text" id="j_ref1" name="ref1"></div>
+      <div class="f"><label class="l" for="j_ref2">Reference 2 (name + phone)</label><input type="text" id="j_ref2" name="ref2"></div>
+      <div class="f"><label class="l" for="j_em">Emergency contact</label><input type="text" id="j_em" name="emergency"></div>
+      <div class="f"><label class="l" for="j_link">Photo / portfolio link</label><input type="text" id="j_link" name="link" placeholder="Instagram or Drive link"></div>
+      <label class="check"><input type="checkbox" id="j_bg" name="bgConsent" required><span>I agree to an identity and background check before I am deployed. <span class="req">*</span></span></label>
+      <label class="check"><input type="checkbox" id="j_log" name="logConsent" required><span>I will sign the duty log every shift and follow the production's conduct rules on set. <span class="req">*</span></span></label>
+    </fieldset>
+    <div class="submit"><button class="btn red" type="submit" id="joinBtn">Submit registration</button><span class="status" id="joinStatus" role="status"></span></div>
+  </form>
+</div></div>
+
+<div data-view="request" hidden><div class="wrap formpage">
+  <div class="formhead"><span class="eyebrow">For producers, venues &amp; event teams</span><h1>Book talent<span class="slash">.</span></h1><p>Two minutes. We reply on WhatsApp with matched profiles and a quote.</p><span class="ref" id="reqRef"></span></div>
+  <div class="notice" id="reqNote" hidden></div>
+  <form class="sheet" id="reqForm" novalidate>
+    <fieldset><legend><small>A</small>Production</legend>
+      <div class="f"><label class="l" for="r_co">Company / production house <span class="req">*</span></label><input type="text" id="r_co" name="company" required></div>
+      <div class="f"><label class="l" for="r_proj">Project name</label><input type="text" id="r_proj" name="project" placeholder="Working title"></div>
+      <div class="f"><label class="l" for="r_name">Contact person <span class="req">*</span></label><input type="text" id="r_name" name="contact" required></div>
+      <div class="f"><label class="l" for="r_phone">Phone / WhatsApp <span class="req">*</span></label><input type="tel" id="r_phone" name="phone" required></div>
+      <div class="f full"><label class="l">Type</label><div class="opts">
+        <label class="opt"><input type="radio" name="ptype" value="Feature film" id="r_p1" checked><span>Feature film</span></label>
+        <label class="opt"><input type="radio" name="ptype" value="Web series" id="r_p2"><span>Web series</span></label>
+        <label class="opt"><input type="radio" name="ptype" value="Commercial" id="r_p3"><span>Commercial</span></label>
+        <label class="opt"><input type="radio" name="ptype" value="Event" id="r_p4"><span>Event</span></label>
+        <label class="opt"><input type="radio" name="ptype" value="Restaurant / venue" id="r_p5"><span>Restaurant / venue</span></label></div></div>
+    </fieldset>
+    <fieldset><legend><small>B</small>Requirement</legend>
+      <div class="f"><label class="l" for="r_role">Role needed <span class="req">*</span></label><select id="r_role" name="role" required><option>Bouncers · standard</option><option>Bouncers · MMA-trained</option><option>Chef / cooks</option><option>Set crew</option><option>Event staff</option></select></div>
+      <div class="f"><label class="l" for="r_count">How many people <span class="req">*</span></label><input type="number" id="r_count" name="count" min="1" required value="4"></div>
+      <div class="f"><label class="l" for="r_city">Location <span class="req">*</span></label><input type="text" id="r_city" name="location" required placeholder="Film City, Goregaon"></div>
+      <div class="f"><label class="l" for="r_basis">Booking basis</label><select id="r_basis" name="basis"><option>Per shift</option><option>Hourly</option><option>Full schedule / project</option></select></div>
+      <div class="f"><label class="l" for="r_from">From</label><input type="date" id="r_from" name="from"></div>
+      <div class="f"><label class="l" for="r_to">To</label><input type="date" id="r_to" name="to"></div>
+      <div class="f"><label class="l" for="r_call">Call time</label><input type="time" id="r_call" name="callTime" value="07:00"></div>
+      <div class="f"><label class="l" for="r_hrs">Shift length (hours)</label><input type="number" id="r_hrs" name="hours" min="1" max="24" value="12"></div>
+    </fieldset>
+    <fieldset><legend><small>C</small>On-set terms</legend>
+      <div class="f full"><label class="l">Production provides</label><div class="opts">
+        <label class="opt"><input type="checkbox" name="provides" value="Meals" id="r_m1" checked><span>Meals</span></label>
+        <label class="opt"><input type="checkbox" name="provides" value="Conveyance" id="r_m2"><span>Conveyance</span></label>
+        <label class="opt"><input type="checkbox" name="provides" value="Stay (outstation)" id="r_m3"><span>Stay</span></label>
+        <label class="opt"><input type="checkbox" name="provides" value="Uniform / costume" id="r_m4"><span>Uniform</span></label></div></div>
+      <div class="f full"><label class="l">Late-night shooting?</label><div class="opts">
+        <label class="opt"><input type="radio" name="night" value="Yes" id="r_n1"><span>Yes</span></label>
+        <label class="opt"><input type="radio" name="night" value="No" id="r_n2" checked><span>No</span></label></div></div>
+      <div class="f"><label class="l" for="r_budget">Budget per person per shift (₹)</label><input type="number" id="r_budget" name="budget" min="0" step="50" placeholder="800"></div>
+      <div class="f"><label class="l" for="r_dress">Dress code</label><input type="text" id="r_dress" name="dress" placeholder="Black safari suit"></div>
+      <div class="f full"><label class="l" for="r_notes">Anything else</label><textarea id="r_notes" name="notes" placeholder="Celebrity on set, crowd control, kitchen for 80 unit members…"></textarea></div>
+      <label class="check"><input type="checkbox" id="r_terms" name="terms" required><span>I understand overtime, late-night and cancellations inside 24 hours are billed separately. <span class="req">*</span></span></label>
+    </fieldset>
+    <div class="submit"><button class="btn red" type="submit" id="reqBtn">Send requirement</button><span class="status" id="reqStatus" role="status"></span></div>
+  </form>
+</div></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <a class="logo" href="#home" aria-label="Call It Arts — home">
+        <span class="logo-word"><span>Call it</span><span>Arts<i></i></span></span>
+        <span class="logo-tag">Talent. Crew. Production.<br>On demand.</span>
+      </a>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#process">How It Works</a>
+        <a href="#join">Join the Network</a>
+        <a href="#request">Request Talent</a>
+      </nav>
+    </div>
+    <div class="foot-base">
+      <span>Verified talent. Production-ready people. Across India.</span>
+      <span class="credit">Website by <a href="https://thebeyondbranding.com" target="_blank" rel="noopener">Beyond Branding</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/lenis.min.js" defer></script>
+<script>
+window.addEventListener('DOMContentLoaded',function(){
+  'use strict';
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const header=document.querySelector('.site-header');
+  const nav=document.getElementById('mainNav');
+  const burger=document.querySelector('.burger');
+  const drop=document.querySelector('.drop');
+  const views=[...document.querySelectorAll('[data-view]:not(body)')];
+  const viewNames=views.map(v=>v.dataset.view);
+
+  /* ---------- Lenis smooth scroll ---------- */
+  let lenis=null;
+  if(window.Lenis && !reduce){
+    lenis=new Lenis({duration:1.15,easing:t=>Math.min(1,1.001-Math.pow(2,-10*t)),smoothWheel:true,wheelMultiplier:1,touchMultiplier:1.4});
+    const raf=t=>{lenis.raf(t);requestAnimationFrame(raf)};
+    requestAnimationFrame(raf);
+  }
+  const headerOffset=()=>-(header.querySelector('.bar').offsetHeight+8);
+  function scrollToTarget(target,immediate){
+    if(target===0||target==='top'){ lenis?lenis.scrollTo(0,{immediate:!!immediate}):window.scrollTo(0,0); return; }
+    if(lenis) lenis.scrollTo(target,{offset:headerOffset(),immediate:!!immediate,duration:1.3});
+    else window.scrollTo({top:target.getBoundingClientRect().top+scrollY+headerOffset(),behavior:immediate||reduce?'auto':'smooth'});
+  }
+
+  /* ---------- Header state + parallax ---------- */
+  const heroImg=document.querySelector('.hero-media img');
+  const kitImg=document.querySelector('[data-parallax]');
+  let ticking=false;
+  function onScroll(){
+    const y=lenis?lenis.scroll:scrollY;
+    header.classList.toggle('solid',y>40);
+    if(!reduce){
+      if(heroImg && y<innerHeight*1.2) heroImg.style.transform='translate3d(0,'+(y*0.18).toFixed(1)+'px,0)';
+      if(kitImg){const r=kitImg.parentElement.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight){const p=(r.top+r.height/2-innerHeight/2)/innerHeight;kitImg.style.transform='translate3d(0,'+(-6.5+p*-8).toFixed(2)+'%,0)';}}
+    }
+    ticking=false;
+  }
+  if(lenis) lenis.on('scroll',onScroll);
+  else addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+  onScroll();
+
+  /* ---------- Menu ---------- */
+  function setMenu(open){
+    document.body.classList.toggle('menu-open',open);
+    burger.setAttribute('aria-expanded',String(open));
+    burger.setAttribute('aria-label',open?'Close menu':'Open menu');
+    if(lenis) open?lenis.stop():lenis.start();
+    else document.documentElement.style.overflow=open?'hidden':'';
+  }
+  burger.addEventListener('click',()=>setMenu(!document.body.classList.contains('menu-open')));
+  addEventListener('keydown',e=>{if(e.key==='Escape'){setMenu(false);drop.classList.remove('open');}});
+  matchMedia('(min-width:981px)').addEventListener('change',e=>{if(e.matches)setMenu(false)});
+  const dropBtn=drop.querySelector('button');
+  dropBtn.addEventListener('click',()=>{const o=drop.classList.toggle('open');dropBtn.setAttribute('aria-expanded',String(o));});
+  document.addEventListener('click',e=>{if(!drop.contains(e.target)){drop.classList.remove('open');dropBtn.setAttribute('aria-expanded','false');}});
+
+  /* ---------- Views & in-page links ---------- */
+  let current='home';
+  function render(name){
+    current=name;
+    views.forEach(v=>v.hidden=v.dataset.view!==name);
+    document.body.dataset.view=name;
+    document.querySelectorAll('.nav [data-v]').forEach(a=>a.dataset.v===name?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));
+    if(lenis) lenis.resize();
+  }
+  function route(hash,fromLoad){
+    const id=(hash||'').replace(/^#/,'')||'home';
+    if(viewNames.includes(id) && id!=='home'){ render(id); scrollToTarget(0,true); return; }
+    if(current!=='home') render('home');
+    const el=id==='home'?null:document.getElementById(id);
+    if(el) fromLoad?setTimeout(()=>scrollToTarget(el,true),60):scrollToTarget(el);
+    else scrollToTarget(0,fromLoad||current!=='home');
+  }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('a[href^="#"]'); if(!a) return;
+    const hash=a.getAttribute('href'); e.preventDefault();
+    setMenu(false); drop.classList.remove('open');
+    const wasView=current;
+    if(location.hash!==hash) history.pushState(null,'',hash);
+    route(hash, false);
+    if(wasView!==current) refreshReveal();
+  });
+  addEventListener('popstate',()=>route(location.hash,true));
+  route(location.hash,true);
+
+  /* ---------- Reveal on scroll ---------- */
+  const io='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}}),{rootMargin:'0px 0px -8% 0px',threshold:.08}):null;
+  function refreshReveal(){document.querySelectorAll('[data-reveal]:not(.in)').forEach(el=>io?io.observe(el):el.classList.add('in'));}
+  refreshReveal();
+
+  /* ---------- Mobile card carousel dots ---------- */
+  const cards=document.querySelector('.cards'), dots=[...document.querySelectorAll('.card-dots i')];
+  cards.addEventListener('scroll',()=>{const w=cards.firstElementChild.offsetWidth+12;const i=Math.round(cards.scrollLeft/w);dots.forEach((d,k)=>d.classList.toggle('on',k===Math.min(i,dots.length-1)));},{passive:true});
+
+  /* ---------- Conditional role blocks ---------- */
+  function syncRole(){
+    const r=(document.querySelector('input[name=role]:checked')||{}).value;
+    document.querySelectorAll('.cond').forEach(c=>c.hidden=c.dataset.for!==r);
+    if(lenis) lenis.resize();
+  }
+  document.getElementById('roleOpts').addEventListener('change',syncRole); syncRole();
+
+  const refCode=p=>p+'-'+Date.now().toString(36).slice(-5).toUpperCase();
+  let joinRef=refCode('CIAP-C'), reqRef=refCode('CIAP-B');
+  document.getElementById('joinRef').textContent='Ref '+joinRef;
+  document.getElementById('reqRef').textContent='Ref '+reqRef;
+
+  function collect(form){
+    const out={};
+    for(const el of form.elements){
+      if(!el.name) continue;
+      if(el.type==='checkbox'){
+        if(form.querySelectorAll('input[type=checkbox][name="'+el.name+'"]').length>1){ out[el.name]=out[el.name]||[]; if(el.checked) out[el.name].push(el.value); }
+        else out[el.name]=el.checked;
+      } else if(el.type==='radio'){ if(el.checked) out[el.name]=el.value; }
+      else if(!el.closest('.cond')||!el.closest('.cond').hidden){ out[el.name]=el.value.trim(); }
+    }
+    return out;
+  }
+  function validate(form,statusEl){
+    const bad=[...form.querySelectorAll('[required]')].find(el=>{
+      if(el.closest('.cond')&&el.closest('.cond').hidden) return false;
+      return el.type==='checkbox'?!el.checked:!el.value.trim();
+    });
+    if(bad){ statusEl.className='status err'; const lab=form.querySelector('label[for="'+bad.id+'"]'); statusEl.textContent='Fill in '+(lab?lab.textContent.replace('*','').trim():'the required box')+' to continue.'; bad.focus({preventScroll:true}); scrollToTarget(bad); return false; }
+    const age=form.querySelector('#j_age'); if(age&&age.value&&+age.value<18){ statusEl.className='status err'; statusEl.textContent='You must be 18 or older to register.'; age.focus(); return false;}
+    return true;
+  }
+
+  /* ---------- Google Sheets ---------- */
+  // Paste the Apps Script web-app URL here after deploying sheets-script.gs
+  const SHEET_ENDPOINT = "PASTE_APPS_SCRIPT_URL_HERE";
+  function note(id,html){const n=document.getElementById(id); n.innerHTML=html; n.hidden=!html;}
+  if(!/^https:\/\/script\.google\.com\//.test(SHEET_ENDPOINT)){
+    const m='<b>Setup pending.</b> Forms open for submissions shortly. Call or WhatsApp us meanwhile.';
+    note('joinNote',m); note('reqNote',m);
+  }
+  async function save(kind,ref,data,statusEl,btn,form,after){
+    if(!/^https:\/\/script\.google\.com\//.test(SHEET_ENDPOINT)){ statusEl.className='status err'; statusEl.textContent='Submissions are not open yet. Please WhatsApp us your details.'; return; }
+    btn.disabled=true; statusEl.className='status'; statusEl.textContent='Sending…';
+    const body=new URLSearchParams(); body.append('kind',kind); body.append('ref',ref);
+    for(const [k,v] of Object.entries(data)){ body.append(k, Array.isArray(v)?v.join(', '):String(v)); }
+    try{
+      await fetch(SHEET_ENDPOINT,{method:'POST',mode:'no-cors',body});
+      statusEl.className='status ok'; statusEl.textContent='Received. Your reference is '+ref+'. We will WhatsApp you.';
+      form.reset(); syncRole(); after();
+    }catch(e){ statusEl.className='status err'; statusEl.textContent='Could not send. Check your internet and press submit again.'; }
+    finally{ btn.disabled=false; }
+  }
+  document.getElementById('joinForm').addEventListener('submit',e=>{
+    e.preventDefault(); const f=e.target, st=document.getElementById('joinStatus');
+    if(!validate(f,st)) return;
+    save('crew',joinRef,collect(f),st,document.getElementById('joinBtn'),f,()=>{joinRef=refCode('CIAP-C');document.getElementById('joinRef').textContent='Ref '+joinRef;});
+  });
+  document.getElementById('reqForm').addEventListener('submit',e=>{
+    e.preventDefault(); const f=e.target, st=document.getElementById('reqStatus');
+    if(!validate(f,st)) return;
+    save('requests',reqRef,collect(f),st,document.getElementById('reqBtn'),f,()=>{reqRef=refCode('CIAP-B');document.getElementById('reqRef').textContent='Ref '+reqRef;});
+  });
+});
+</script>
+</body>
+</html>
